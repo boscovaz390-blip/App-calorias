@@ -1,0 +1,44 @@
+{
+  "name": "FitPic - Coach de Nutrición con IA",
+  "short_name": "FitPic",
+  "description": "Toma una foto de tu comida y descubre sus calorías con IA. Tracking de dieta, ejercicio y agua.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6c63ff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["health", "fitness", "food"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Escanear comida",
+      "short_name": "Escanear",
+      "description": "Toma foto de tu comida",
+      "url": "/scan",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Inicio",
+      "description": "Ver mi progreso de hoy",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
